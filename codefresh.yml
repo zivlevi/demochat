@@ -1,0 +1,8 @@
+version: '1.0'
+steps:
+
+ build-step:
+     type: build
+     dockerfile: docker/Dockerfile
+     image-name: verchol/lets-chat
+     tag: codefresh
