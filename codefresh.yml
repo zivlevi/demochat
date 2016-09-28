@@ -1,16 +1,24 @@
 version: '1.0'
 steps:
 
- build-step:
+  build-step:
      type: build
      dockerfile: docker/Dockerfile
      image-name: verchol/lets-chat
      tag: codefresh
 
-unit-tests:
+  unit-tests:
       image: ${{build-step}}
       fail-fast: false
       working-directory : ${{initial-clone}}
       commands:
         - npm test
         - echo $(date)
+        
+  composition-step:
+      type: composition
+      composition: demo-chat-example
+      composition-candidates:
+        main:
+          image: nhoag/curl
+          command: bash -c "sleep 20 && curl http://app:5000/" | echo 'works'        
