@@ -3,7 +3,7 @@ steps:
 
   build-step:
      type: build
-     dockerfile: docker/Dockerfile
+     dockerfile: Dockerfile
      image-name: verchol/lets-chat
      tag: codefresh
 
