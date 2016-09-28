@@ -6,3 +6,11 @@ steps:
      dockerfile: docker/Dockerfile
      image-name: verchol/lets-chat
      tag: codefresh
+
+unit-tests:
+      image: ${{build-step}}
+      fail-fast: false
+      working-directory : ${{initial-clone}}
+      commands:
+        - npm test
+        - echo $(date)
