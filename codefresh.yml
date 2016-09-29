@@ -4,7 +4,7 @@ steps:
   build-step:
      type: build
      dockerfile: Dockerfile
-     image-name: verchol/lets-chat
+     image-name: superfresh/lets-chat
      tag: codefresh
 
   unit-tests:
