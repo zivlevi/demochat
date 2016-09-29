@@ -3,7 +3,7 @@ FROM node:0.10-slim
 RUN npm install -g mocha
 RUN npm install -g istanbul
 RUN npm install -g gulp
-RUN npm install -g debug
+#RUN npm install -g debug
 
 COPY ./package.json /src/package.json
 RUN cd /src && npm install
