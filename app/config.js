@@ -8,6 +8,7 @@ var path  = require('path');
 var debug = require('debug')('config readers');
 
 function parseEnvValue(value, isArray) {
+    value = value;
     value = value.trim();
     if (isArray) {s
         return _.map(value.split(','), function(value) {
