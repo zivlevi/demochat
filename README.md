@@ -36,7 +36,7 @@ Now enter Codefresh and add your let’s chat app as a codefresh service.
 
 press on ___Add New Service___
 
-![Screenshot](screenshots/Screen Shot 2016-09-27 at 8.06.10 PM.png)
+![Screenshot](http://imgur.com/Kgq7AXt)
 
 now add you forked demochat repo.
 toggle to ___Add by URL___
