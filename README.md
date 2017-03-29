@@ -10,7 +10,7 @@ This tutorial is based on let’s chat [app].
 
 https://github.com/containers101/demochat
 
-###Let’s chat is self-hosted chat app for small teams or big
+### Let’s chat is self-hosted chat app for small teams or big
 
 This tutorial will walk you through the process of adding the following :
 
@@ -26,13 +26,12 @@ and check if your application is responsive. It will do so by printing "works" i
 
 So the first thing you need to do is :
 
-##Fork our repo  
+## Fork our repo  
 
-Enter the following link and fork let’s chat app
-![Screenshot](screenshots/Screen Shot 2016-09-27 at 8.01.32 PM.png)
+Enter the following link and fork let’s chat app!: https://github.com/containers101/demochat
 
 
-##Add a service
+## Add a service
 Now enter Codefresh and add your let’s chat app as a codefresh service.
 
 press on ___Add New Service___
