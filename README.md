@@ -58,6 +58,9 @@ By default, Codefresh searches for your Dockerfile at the root level of your rep
 
 ![Screenshot](http://i.imgur.com/a65tw0v.png)
 
+
+Review your Dockerfile, and click Create to add your repository.
+
 pressing on ___build___  button will trigger a regular build 
 ![Screenshot](screenshots/Screen Shot 2016-09-27 at 8.10.56 PM.png)
 
