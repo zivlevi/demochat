@@ -41,7 +41,7 @@ Click on ___Add New Service___
 
 Now add you forked demochat repo.
 
-![Screenshot](http://i.imgur.com/lVLxfrh.png)
+![Screenshot](http://i.imgur.com/HPCUtQx.png)
 
 enter the forked repo url 
 
@@ -50,7 +50,7 @@ and choose the branch for your first build (in this case ```master```)
 
 when you finish press ___next___.
 
-![Screenshot](screenshots/2016-09-28_1536.png)
+![Screenshot](http://i.imgur.com/lVLxfrh.png)
 
 enter the path of your docker file (in our case it's simply ```Dockerfile```)
 and press ___next___
