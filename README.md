@@ -54,9 +54,9 @@ Select how you would like to setup your repository. In this case, our repo has a
 
 ![Screenshot](http://i.imgur.com/KCAkK2u.png)
 
-make sure you can see the preview of your Dockerfile
-and press ___create___
-![Screenshot](screenshots/2016-09-28_1641.png)
+By default, Codefresh searches for your Dockerfile at the root level of your repository, by the name Dockerfile. The demo-chat example includes a Dockerfile in the root level.
+
+![Screenshot](http://i.imgur.com/a65tw0v.png)
 
 pressing on ___build___  button will trigger a regular build 
 ![Screenshot](screenshots/Screen Shot 2016-09-27 at 8.10.56 PM.png)
