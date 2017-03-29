@@ -39,7 +39,7 @@ Click on ___Add New Service___
 ![Screenshot](http://i.imgur.com/2tGNxQu.png)
 
 
-Now add you forked demochat repo.
+Now add your forked demochat repo.
 
 ![Screenshot](http://i.imgur.com/HPCUtQx.png)
 
@@ -64,9 +64,10 @@ Review your Dockerfile, and click Create to add your repository.
 ![Screenshot](http://i.imgur.com/yb0xCtp.png)
 
 pressing on ___build___  button will trigger a regular build 
-![Screenshot](screenshots/Screen Shot 2016-09-27 at 8.10.56 PM.png)
 
-great , you  are running  your build for the first time !
+![Screenshot](http://i.imgur.com/QdRQDxo.png)
+
+Great, you  are running  your build for the first time!
 
 
 ![Screenshot](screenshots/2016-09-29_15-27-53.png)
