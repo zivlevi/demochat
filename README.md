@@ -47,7 +47,7 @@ Enter the forked repo url and choose the branch for your first build (in this ca
 
 When you finish press ___next___.
 
-![Screenshot](http://i.imgur.com/lVLxfrh.png)
+![Screenshot](http://i.imgur.com/71xBMRZ.png)
 
 Select how you would like to setup your repository. In this case, our repo has a Dockerfile, so we'll select the middle option. 
 
