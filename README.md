@@ -15,13 +15,13 @@ https://github.com/containers101/demochat
 This tutorial will walk you through the process of adding the following :
 
 
-* Build step - that will build docker image for your let’s chat app
+* Build step - that will build Docker image for your let’s chat app
 
-* Push to registry step - that will push your image to docker hub
+* Push to registry step - that will push your image to Docker Hub
 
 * Unit Test step - A freestyle step that runs the unit test of the demo chat after the build 
 
-* Composition step - This step will run a composition which use your chat image from the build step, docker image of curl 
+* Composition step - This step will run a composition which use your chat image from the build step, Docker image of curl 
 and check if your application is responsive. It will do so by printing "works" if a curl command to our app at port 5000 succeed.  
 
 So, the first thing you need to do is :
@@ -49,13 +49,12 @@ When you finish press ___next___.
 
 ![Screenshot](http://i.imgur.com/lVLxfrh.png)
 
-Enter the path of your Docker file (in our case it's simply ```Dockerfile```)
-and press ___next___ .
+Select how you would like to setup your repository. In this case, our repo has a Dockerfile, so we'll select the middle option. 
 
 
-![Screenshot](screenshots/2016-09-28_1639.png)
+![Screenshot](http://i.imgur.com/KCAkK2u.png)
 
-make sure you can see the preview of your dockerfile
+make sure you can see the preview of your Dockerfile
 and press ___create___
 ![Screenshot](screenshots/2016-09-28_1641.png)
 
