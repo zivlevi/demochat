@@ -24,7 +24,7 @@ This tutorial will walk you through the process of adding the following :
 * Composition step - This step will run a composition which use your chat image from the build step, docker image of curl 
 and check if your application is responsive. It will do so by printing "works" if a curl command to our app at port 5000 succeed.  
 
-So the first thing you need to do is :
+So, the first thing you need to do is :
 
 ## Fork our repo  
 
@@ -32,17 +32,16 @@ Enter the following link and fork let’s chat app!: https://github.com/containe
 
 
 ## Add a service
-Now enter Codefresh and add your let’s chat app as a codefresh service.
+Now enter Codefresh and add your let’s chat app as a Codefresh service.
 
-press on ___Add New Service___
+Click on ___Add New Service___
 
 ![Screenshot](http://i.imgur.com/2tGNxQu.png)
 
 
-now add you forked demochat repo.
-toggle to ___Add by URL___
+Now add you forked demochat repo.
 
-![Screenshot](screenshots/2016-09-28_1522.png)
+![Screenshot](http://i.imgur.com/lVLxfrh.png)
 
 enter the forked repo url 
 
