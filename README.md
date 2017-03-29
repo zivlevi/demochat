@@ -49,8 +49,8 @@ When you finish press ___next___.
 
 ![Screenshot](http://i.imgur.com/lVLxfrh.png)
 
-enter the path of your docker file (in our case it's simply ```Dockerfile```)
-and press ___next___
+Enter the path of your Docker file (in our case it's simply ```Dockerfile```)
+and press ___next___ .
 
 
 ![Screenshot](screenshots/2016-09-28_1639.png)
