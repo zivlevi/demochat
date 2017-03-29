@@ -43,12 +43,9 @@ Now add you forked demochat repo.
 
 ![Screenshot](http://i.imgur.com/HPCUtQx.png)
 
-enter the forked repo url 
+Enter the forked repo url and choose the branch for your first build (in this case ```master```)
 
-and choose the branch for your first build (in this case ```master```)
-
-
-when you finish press ___next___.
+When you finish press ___next___.
 
 ![Screenshot](http://i.imgur.com/lVLxfrh.png)
 
