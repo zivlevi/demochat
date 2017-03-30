@@ -69,65 +69,6 @@ pressing on ___build___  button will trigger a regular build
 
 Great, you  are running  your build for the first time!
 
-
-![Screenshot](screenshots/2016-09-29_15-27-53.png)
-
-
-in order to see the list of you current services press on the ___services___ button
-
-![Screenshot](screenshots/2016-09-29_1729.png)
-
-
-and see your new service
-
-![Screenshot](screenshots/Screen Shot 2016-09-27 at 8.16.52 PM.png)
-
-
-
-##Build your image
-Create a codefresh.yml file using YAML syntax .
-
-The file should be in the following structure
-```
-version: '1.0'
-steps:
-
-    build-step:
-        type: build
-        dockerfile: Dockerfile
-        image-name: superfresh/lets-chat
-        tag: codefresh
-     
- ```
-
-```build-step``` can be any name that you want    
-
-Under the ```dockerfile``` property write your dockerfile path.
-
-```image-name``` will be the name of your image. The image name is very important for the push step so make sure it suit the repository's conventions (for example: dockerhub require the image name to be in the format of <user name>/<image name> so in our case it would be ```superfresh/lets-chat```)
-
-```tag``` will be the tag of the image
-
-you can read more about it in our docs :
-https://docs.codefresh.io/docs/steps
-
-After you finish, add the codefresh.yml file to your repository.
-
-##Configure your service to use codefresh.yml
-Go back to codefresh services, and choose your service. 
- 
-turn on the __USE YML BUILD__ option. 
-
-![Screenshot](screenshots/Screen Shot 2016-09-27 at 8.29.08 PM.png)
-press on __BUILD__ , choose your branch (```master```)
-And run the YML build for the first time !
-
-
-![Screenshot](screenshots/Screen Shot 2016-09-27 at 9.08.51 PM.png)
-
-after the build is finished you can find it under the  __BUILDS__ tab by toggling to  __YML Builds__
-![Screenshot](screenshots/2016-09-28_1852.png)
-
 ##Push your image to docker registry
 First configure your account’s Docker registry details and credentials 
 under __account management__
