@@ -70,9 +70,9 @@ pressing on ___build___  button will trigger a regular build
 Great, you  are running  your build for the first time!
 
 ##Push your image to docker registry
-First configure your account’s Docker registry details and credentials 
-under __account management__
-![Screenshot](screenshots/Screen Shot 2016-09-27 at 8.30.53 PM.png)
+Click on Repositories, and then click on the Pipelines gear.
+
+![Screenshot](http://i.imgur.com/QmZPo42.png)
 Now add the following step to your codefresh.yml file
 ```
 push to registry:
