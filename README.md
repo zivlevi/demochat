@@ -76,6 +76,9 @@ Click on Repositories, and then click on the Pipelines gear.
 
 Scroll down to Workflow, and you will see a "Push to Docker" button. If you have set up your credentials, click Save at the bottom of the screen. Otherwise- click on the "integration page" link.
 
+Write your User/Password info, and click Save to connect.
+
+![Screenshot](http://i.imgur.com/rISBne8.png)
 
 You can read about 
 ```${{build-step}}``` and ${{CF_BRANCH}} are codefresh vars which you can use.
