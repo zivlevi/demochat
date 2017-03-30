@@ -69,7 +69,7 @@ pressing on ___build___  button will trigger a regular build
 
 Great, you  are running  your build for the first time!
 
-##Push your image to docker registry
+## Push your image to docker registry
 Click on Repositories, and then click on the Pipelines gear.
 
 ![Screenshot](http://i.imgur.com/QmZPo42.png)
@@ -81,18 +81,19 @@ Write your User/Password info, and click Save to connect.
 ![Screenshot](http://i.imgur.com/rISBne8.png)
 
 
-##Unit test your image
-add the following step to your codefresh.yml file
-```
-unit-tests:
-      image: ${{build-step}}
-      fail-fast: false
-      commands:
-        - npm test
-        - echo $(date)
-```        
-under ```commands```  you can put whatever commands that you like , ```npm test``` will run the 
-test for lets chat app and ```echo $(date)``` will print the date
+## Unit test your image
+Let's head over to Piplines again.
+![Screenshot](http://i.imgur.com/QmZPo42.png)
+
+Scroll down to Workflow under "Build and Unit Test"
+
+We'll type in ```echo $(date)``` in the Unit Test Script area. This will print the date, and we'll be able to see our test in action.
+
+Let's click Save, and Build to see it in action.
+
+Great- the date has been printed!
+
+![Screenshot](http://i.imgur.com/NzduV1K.png)
  
 you can read more about it in our docs :
  https://docs.codefresh.io/docs/steps
