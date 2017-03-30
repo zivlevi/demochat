@@ -73,16 +73,9 @@ Great, you  are running  your build for the first time!
 Click on Repositories, and then click on the Pipelines gear.
 
 ![Screenshot](http://i.imgur.com/QmZPo42.png)
-Now add the following step to your codefresh.yml file
-```
-push to registry:
-     type: push
-     candidate: ${{build-step}}
-     tag: ${{CF_BRANCH}}
-```
 
-you can read more about it in our docs :
-https://docs.codefresh.io/docs/push-to-registry
+Scroll down to Workflow, and you will see a "Push to Docker" button. If you have set up your credentials, click Save at the bottom of the screen. Otherwise- click on the "integration page" link.
+
 
 You can read about 
 ```${{build-step}}``` and ${{CF_BRANCH}} are codefresh vars which you can use.
