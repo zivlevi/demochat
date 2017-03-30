@@ -80,17 +80,6 @@ Write your User/Password info, and click Save to connect.
 
 ![Screenshot](http://i.imgur.com/rISBne8.png)
 
-You can read about 
-```${{build-step}}``` and ${{CF_BRANCH}} are codefresh vars which you can use.
-
-* ```${{build-step}}``` - will take the image from the build-step
-* ```${{CF_BRANCH}}``` - Is the branch name that is currently being built. In our example it will user the ```master``` tag. 
-
-Notice: you don't have to use the ```CF_BRANCH``` environment variable. You can use whatever tag name you want.
-
-you can read more about codefresh variables in our docs : 
- https://docs.codefresh.io/docs/variables
-Make sure you gave the image a name that you are able to push to your registry (dockerhub in our example).
 
 ##Unit test your image
 add the following step to your codefresh.yml file
