@@ -124,52 +124,36 @@ We will be selecting containers101/demochat from our list. If it is not appearin
 ![Screenshot](https://codefresh.io/wp-content/uploads/2017/03/4.png)
 
 
+We know our Docker Compose file is at the root of our directory, so we'll click next
+
+![Screenshot](https://codefresh.io/wp-content/uploads/2017/03/5.png)
 
 
-go to codefresh and choose  __compositions__ tab
-and press __add new composition__ 
+Now we will review and update our yml. Looks good- let's click next.
 
-![Screenshot](screenshots/2016-09-28_1915.png)
- 
- 
-toggele to __advance__ mode , add the composition 
-and choose a name for it (in this case ```demo-chat-example```)
-![Screenshot](screenshots/2016-09-28_1918.png)
-
-when you finish press on the save icon ![Screenshot](screenshots/2016-09-28_1921.png)
-and launch your composition ![Screenshot](screenshots/2016-09-29_1552.png)
+![Screenshot](https://codefresh.io/wp-content/uploads/2017/03/6.png)
 
 
-![Screenshot](screenshots/2016-09-29_1549.png)
+Codefresh doesn't support Build property of compose, so it has replaced it with images built by pipeline. We can go ahead and click Create here.
 
-and if you enter the link at the bottom you can see the lets chat app
-![Screenshot](screenshots/2016-09-29_1550.png)
-now add integration test to your YAML file.
-
-##Add composition step
-add the following step to your codefresh.yml file
+![Screenshot](https://codefresh.io/wp-content/uploads/2017/03/7.png)
 
 
-```
-composition-step:
-      type: composition
-      composition: demo-chat-example
-      composition-candidates:
-        main:
-          image: nhoag/curl
-          command: bash -c "sleep 20 && curl http://app:5000/" | echo 'works'
-```
-under ```composition``` you need to put the name of composition from the last step in order to use it
-(in this case ```demo-chat-example```)
-in this step codefresh will use the ```nhoag/curl``` image that can run this command : ```bash -c "sleep 20 && curl http://app:5000/" | echo 'works'```
-which will print "works" if a curl command to your app at port 5000 succeed.
+Everything looks good here- so let's go ahead and launch...
 
-you can read more about composition step in our docs :
- https://docs.codefresh.io/docs/steps
 
-run the build
-![Screenshot](screenshots/2016-09-29_1728.png)
-success !
+![Screenshot](https://codefresh.io/wp-content/uploads/2017/03/8.png)
+
+
+Once it has completed, a link to our app will be displayed. Let's click it to see if it worked.
+
+
+![Screenshot](https://codefresh.io/wp-content/uploads/2017/03/9.png)
+
+Success! We have successfully launched a composition.
+
+![Screenshot](https://codefresh.io/wp-content/uploads/2017/03/10.png)
+
 
 
 [app]: https://github.com/containers101/demochat
