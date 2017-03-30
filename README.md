@@ -95,33 +95,36 @@ Great- the date has been printed!
 
 ![Screenshot](http://i.imgur.com/NzduV1K.png)
  
-you can read more about it in our docs :
- https://docs.codefresh.io/docs/steps
-
-![Screenshot](screenshots/2016-09-29_1539.png)
  
-as you can see the unit-test faild because there is no mongodb,
-So in order to really check the demochat you need to bring a full composition that contains the chat and mongo db
+Now let's add a full composition that contains the chat and mongo db
 
 
-##Add composition 
-our lets chat app needs a mongo in order to work , so let's make it work
+## Add composition
 
-the following composition will use your image at port 500 linked to a mongo image 
-```
-version: '2'
-services:
-  app:
-    image: 'superfresh/lets-chat:master'
-    links:
-    - mongo
-    ports:
-      - 5000
-  mongo:
-    image: mongo
-``` 
-you can read more about compositions in our docs :
+Our lets chat app needs a mongo in order to work , so let's add it!
+
+you can read more about compositions in our docs, but we will also walk through the process here :
 https://docs.codefresh.io/docs/create-composition
+
+
+Click the Composition view icon in the left pane, and click the Add Composition.
+
+![Screenshot](https://codefresh.io/wp-content/uploads/2017/03/1.png)
+
+Choose a name for your composition
+
+![Screenshot](https://codefresh.io/wp-content/uploads/2017/03/2.png)
+
+We'll be using a file from our repo, so select the appropriate option.
+
+![Screenshot](https://codefresh.io/wp-content/uploads/2017/03/3.png)
+
+We will be selecting containers101/demochat from our list. If it is not appearing, click "Add by URL" and enter https://github.com/containers101/demochat
+
+![Screenshot](https://codefresh.io/wp-content/uploads/2017/03/4.png)
+
+
+
 
 go to codefresh and choose  __compositions__ tab
 and press __add new composition__ 
