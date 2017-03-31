@@ -1,9 +1,9 @@
-![Let's Chat Greylock](http://i.imgur.com/0a3l5VF.png)
+![Let's Chat Greylock](https://codefresh.io/wp-content/uploads/2017/03/lets-chat.png)
 
 
 Use this tutorial to familiarize yourself with codefresh.yml file and codefresh functionality.
 
-![Screenshot](http://i.imgur.com/C4uMD67.png)
+![Screenshot](https://codefresh.io/wp-content/uploads/2017/03/11.png)
 
 
 This tutorial is based on let’s chat [app].
@@ -36,54 +36,54 @@ Now enter Codefresh and add your let’s chat app as a Codefresh service.
 
 Click on ___Add New Service___
 
-![Screenshot](http://i.imgur.com/2tGNxQu.png)
+![Screenshot](https://codefresh.io/wp-content/uploads/2017/03/12.png)
 
 
 Now add your forked demochat repo.
 
-![Screenshot](http://i.imgur.com/HPCUtQx.png)
+![Screenshot](https://codefresh.io/wp-content/uploads/2017/03/13.png)
 
 Enter the forked repo url and choose the branch for your first build (in this case ```master```)
 
 When you finish press ___next___.
 
-![Screenshot](http://i.imgur.com/71xBMRZ.png)
+![Screenshot](https://codefresh.io/wp-content/uploads/2017/03/14.png)
 
 Select how you would like to setup your repository. In this case, our repo has a Dockerfile, so we'll select the middle option. 
 
 
-![Screenshot](http://i.imgur.com/KCAkK2u.png)
+![Screenshot](https://codefresh.io/wp-content/uploads/2017/03/15.png)
 
 By default, Codefresh searches for your Dockerfile at the root level of your repository, by the name Dockerfile. The demo-chat example includes a Dockerfile in the root level.
 
-![Screenshot](http://i.imgur.com/a65tw0v.png)
+![Screenshot](https://codefresh.io/wp-content/uploads/2017/03/16.png)
 
 
 Review your Dockerfile, and click Create to add your repository.
 
-![Screenshot](http://i.imgur.com/yb0xCtp.png)
+![Screenshot](https://codefresh.io/wp-content/uploads/2017/03/17.png)
 
-pressing on ___build___  button will trigger a regular build 
+Clicking on ___build___  button will trigger a regular build.
 
-![Screenshot](http://i.imgur.com/QdRQDxo.png)
+![Screenshot](https://codefresh.io/wp-content/uploads/2017/03/18.png)
 
 Great, you  are running  your build for the first time!
 
 ## Push your image to docker registry
 Click on Repositories, and then click on the Pipelines gear.
 
-![Screenshot](http://i.imgur.com/QmZPo42.png)
+![Screenshot](https://codefresh.io/wp-content/uploads/2017/03/19.png)
 
 Scroll down to Workflow, and you will see a "Push to Docker" button. If you have set up your credentials, click Save at the bottom of the screen. Otherwise- click on the "integration page" link.
 
 Write your User/Password info, and click Save to connect.
 
-![Screenshot](http://i.imgur.com/rISBne8.png)
+![Screenshot](https://codefresh.io/wp-content/uploads/2017/03/20.png)
 
 
 ## Unit test your image
 Let's head over to Piplines again.
-![Screenshot](http://i.imgur.com/QmZPo42.png)
+![Screenshot](https://codefresh.io/wp-content/uploads/2017/03/19.png)
 
 Scroll down to Workflow under "Build and Unit Test"
 
@@ -93,7 +93,7 @@ Let's click Save, and Build to see it in action.
 
 Great- the date has been printed!
 
-![Screenshot](http://i.imgur.com/NzduV1K.png)
+![Screenshot](https://codefresh.io/wp-content/uploads/2017/03/22.png)
  
  
 Now let's add a full composition that contains the chat and mongo db
