@@ -45,7 +45,7 @@ Also, choose the branch for your first build (in this case ```master```)
 
 When you finish press ___Next___.
 
-![Screenshot](https://codefresh.io/wp-content/uploads/2017/03/select-repo.png)
+![Screenshot](https://codefresh.io/wp-content/uploads/2017/03/select-repo2.png)
 
 
 Select how you would like to setup your repository. In this case, our repo has a ___Dockerfile___, so we'll select the middle option. 
@@ -100,13 +100,13 @@ Now let's add a full composition that contains the chat and mongo db
 
 ## Add composition
 
-Our lets chat app needs a mongo in order to work , so let's add it!
+Our Let's Chat app needs mongo in order to work, so let's add it!
 
-you can read more about compositions in our docs, but we will also walk through the process here :
+You can read more about compositions in our docs, but we will also walk through the process here :
 https://docs.codefresh.io/docs/create-composition
 
 
-Click the Composition view icon in the left pane, and click the Add Composition.
+Click the ___Composition___ view icon in the left pane, and click the ___Add Composition___.
 
 ![Screenshot](https://codefresh.io/wp-content/uploads/2017/03/1.png)
 
