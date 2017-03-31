@@ -1,21 +1,21 @@
 ![Let's Chat Greylock](https://codefresh.io/wp-content/uploads/2017/03/lets-chat.png)
 
 
-Use this tutorial to familiarize yourself with codefresh.yml file and codefresh functionality.
+Use this tutorial to familiarize yourself with codefresh.yml file and Codefresh functionality.
 
 ![Screenshot](https://codefresh.io/wp-content/uploads/2017/03/11.png)
 
 
-This tutorial is based on let’s chat [app].
+This tutorial is based on Let’s Chat [app].
 
 https://github.com/containers101/demochat
 
-### Let’s chat is self-hosted chat app for small teams or big
+### Let’s Chat is self-hosted chat app for small teams or big
 
 This tutorial will walk you through the process of adding the following :
 
 
-* Build step - that will build Docker image for your let’s chat app
+* Build step - that will build Docker image for your Let’s Chat app
 
 * Push to registry step - that will push your image to Docker Hub
 
@@ -28,20 +28,20 @@ So, the first thing you need to do is :
 
 ## Fork our repo  
 
-Enter the following link and fork let’s chat app!: https://github.com/containers101/demochat
+Enter the following link and fork Let’s Chat app!: ```https://github.com/containers101/demochat```
 
 
 ## Add a service
-Now enter Codefresh and add your let’s chat app as a Codefresh service.
+Now enter Codefresh and add your Let’s Chat app as a Codefresh service.
 
 Click on ___Add Repository___
 
 ![Screenshot](https://codefresh.io/wp-content/uploads/2017/03/add-repo.png)
 
 
-Now add your forked demochat repo.
+Now add your forked demochat repo. You can also add by URL: https://github.com/containers101/demochat
 
-![Screenshot](https://codefresh.io/wp-content/uploads/2017/03/13.png)
+![Screenshot](https://codefresh.io/wp-content/uploads/2017/03/select-repo.png)
 
 Enter the forked repo url and choose the branch for your first build (in this case ```master```)
 
