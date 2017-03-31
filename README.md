@@ -39,31 +39,30 @@ Click on ___Add Repository___
 ![Screenshot](https://codefresh.io/wp-content/uploads/2017/03/add-repo.png)
 
 
-Now add your forked demochat repo. You can also add by URL: https://github.com/containers101/demochat
+Now add your forked demochat repo. You can search for it by typing "demochat" to search. You can also Add by URL by typing in: https://github.com/containers101/demochat
 
-![Screenshot](https://codefresh.io/wp-content/uploads/2017/03/select-repo.png)
-
-Enter the forked repo url and choose the branch for your first build (in this case ```master```)
+Also, choose the branch for your first build (in this case ```master```)
 
 When you finish press ___next___.
 
-![Screenshot](https://codefresh.io/wp-content/uploads/2017/03/14.png)
+![Screenshot](https://codefresh.io/wp-content/uploads/2017/03/select-repo.png)
 
-Select how you would like to setup your repository. In this case, our repo has a Dockerfile, so we'll select the middle option. 
+
+Select how you would like to setup your repository. In this case, our repo has a ___Dockerfile___, so we'll select the middle option. 
 
 
 ![Screenshot](https://codefresh.io/wp-content/uploads/2017/03/15.png)
 
-By default, Codefresh searches for your Dockerfile at the root level of your repository, by the name Dockerfile. The demo-chat example includes a Dockerfile in the root level.
+By default, Codefresh searches for your Dockerfile at the root level of your repository, by the name "Dockerfile". The demo-chat example includes a Dockerfile in the root level.
 
 ![Screenshot](https://codefresh.io/wp-content/uploads/2017/03/16.png)
 
 
-Review your Dockerfile, and click Create to add your repository.
+Review your Dockerfile, and click ___Create___ to add your repository.
 
 ![Screenshot](https://codefresh.io/wp-content/uploads/2017/03/17.png)
 
-Clicking on ___build___  button will trigger a regular build.
+Clicking on ___Build___  button will trigger a regular build.
 
 ![Screenshot](https://codefresh.io/wp-content/uploads/2017/03/18.png)
 
