@@ -43,7 +43,7 @@ Now add your forked demochat repo. You can search for it by typing "demochat" to
 
 Also, choose the branch for your first build (in this case ```master```)
 
-When you finish press ___next___.
+When you finish press ___Next___.
 
 ![Screenshot](https://codefresh.io/wp-content/uploads/2017/03/select-repo.png)
 
@@ -68,27 +68,27 @@ Clicking on ___Build___  button will trigger a regular build.
 
 Great, you  are running  your build for the first time!
 
-## Push your image to docker registry
-Click on Repositories, and then click on the Pipelines gear.
+## Push your image to Docker registry
+Click on ___Repositories___, and then click on the ___Pipelines___ gear.
 
 ![Screenshot](https://codefresh.io/wp-content/uploads/2017/03/19.png)
 
-Scroll down to Workflow, and you will see a "Push to Docker" button. If you have set up your credentials, click Save at the bottom of the screen. Otherwise- click on the "integration page" link.
+Scroll down to ___Workflow___, and you will see a ___Push to Docker___ button. If you have set up your credentials, click ___Save___ at the bottom of the screen. Otherwise- click on the ___integration page___ link.
 
-Write your User/Password info, and click Save to connect.
+Write your User/Password info, and click ___Save___ to connect.
 
 ![Screenshot](https://codefresh.io/wp-content/uploads/2017/03/20.png)
 
 
 ## Unit test your image
-Let's head over to Piplines again.
+Let's head over to ___Piplines___ again.
 ![Screenshot](https://codefresh.io/wp-content/uploads/2017/03/19.png)
 
-Scroll down to Workflow under "Build and Unit Test"
+Scroll down to Workflow under ___Build and Unit Test___
 
 We'll type in ```echo $(date)``` in the Unit Test Script area. This will print the date, and we'll be able to see our test in action.
 
-Let's click Save, and Build to see it in action.
+Let's click ___Save___, and ___Build___ to see it in action.
 
 Great- the date has been printed!
 
