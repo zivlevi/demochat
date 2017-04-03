@@ -118,22 +118,22 @@ We'll be using a file from our repo, so select the appropriate option (for the p
 
 ![Screenshot](https://codefresh.io/wp-content/uploads/2017/03/3.png)
 
-We will be selecting containers101/demochat from our list. If it is not appearing, click "Add by URL" and enter https://github.com/Superfresh/demochat
+We will be selecting containers101/demochat from our list. If it is not appearing, click ___Add by URL___ and enter https://github.com/Superfresh/demochat
 
 ![Screenshot](https://codefresh.io/wp-content/uploads/2017/04/select_repo.png)
 
 
-We know our Docker Compose file is at the root of our directory, so we'll click next
+We know our Docker Compose file is at the root of our directory, so we'll click ___Next___.
 
 ![Screenshot](https://codefresh.io/wp-content/uploads/2017/03/5.png)
 
 
-Now we will review and update our yml. Looks good- let's click next.
+Now we will review and update our yml. Looks good- let's click ___Next___.
 
 ![Screenshot](https://codefresh.io/wp-content/uploads/2017/04/customize.png)
 
 
-Great- let's create!
+Great- let's click ___Create___!
 
 ![Screenshot](https://codefresh.io/wp-content/uploads/2017/04/customize-2.png)
 
@@ -141,7 +141,7 @@ Great- let's create!
 Everything looks good here- so let's go ahead and launch...
 
 
-![Screenshot](https://codefresh.io/wp-content/uploads/2017/03/8.png)
+![Screenshot](https://codefresh.io/wp-content/uploads/2017/04/launch.png)
 
 
 Once it has completed, a link to our app will be displayed. Let's click it to see if it worked.
@@ -152,6 +152,8 @@ Once it has completed, a link to our app will be displayed. Let's click it to se
 Success! We have successfully launched a composition.
 
 ![Screenshot](https://codefresh.io/wp-content/uploads/2017/03/10.png)
+
+
 
 
 
