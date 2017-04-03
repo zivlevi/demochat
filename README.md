@@ -21,7 +21,7 @@ This tutorial will walk you through the process of adding the following :
 
 * Unit Test step - A freestyle step that runs the unit test of the demo chat after the build 
 
-* Composition step - This step will run a composition. We will then run a unit test with our composition which will check if your application is responsive. It will do so by printing "TEST PASSED" if a curl command to our app at port 5000 succeed.  
+* Composition step - This step will create and launch a composition.
 
 So, the first thing you need to do is :
 
