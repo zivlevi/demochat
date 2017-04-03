@@ -152,6 +152,16 @@ Success! We have successfully launched a composition.
 
 ![Screenshot](https://codefresh.io/wp-content/uploads/2017/03/10.png)
 
+Now we can run a test with our composition. Use the right hand navigation to select ___Repositories___ again. From here we will add the following to our ___Unit test Script___:
+
+```npm start &
+npm test
+curl http://localhost:5000 
+echo "TEST PASSED"
+```
+
+![Screenshot](https://codefresh.io/wp-content/uploads/2017/04/add-comp-test.png)
+
 
 
 
