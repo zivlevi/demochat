@@ -22,7 +22,7 @@ This tutorial will walk you through the process of adding the following :
 * Unit Test step - A freestyle step that runs the unit test of the demo chat after the build 
 
 * Composition step - This step will run a composition which use your chat image from the build step, Docker image of curl 
-and check if your application is responsive. It will do so by printing "works" if a curl command to our app at port 5000 succeed.  
+and check if your application is responsive. It will do so by printing "TEST PASSED" if a curl command to our app at port 5000 succeed.  
 
 So, the first thing you need to do is :
 
@@ -114,13 +114,13 @@ Choose a name for your composition
 
 ![Screenshot](https://codefresh.io/wp-content/uploads/2017/03/2.png)
 
-We'll be using a file from our repo, so select the appropriate option.
+We'll be using a file from our repo, so select the appropriate option (for the purpose of this demo, you may also use the Let's Chat template if you wish).
 
 ![Screenshot](https://codefresh.io/wp-content/uploads/2017/03/3.png)
 
-We will be selecting containers101/demochat from our list. If it is not appearing, click "Add by URL" and enter https://github.com/containers101/demochat
+We will be selecting containers101/demochat from our list. If it is not appearing, click "Add by URL" and enter https://github.com/Superfresh/demochat
 
-![Screenshot](https://codefresh.io/wp-content/uploads/2017/03/4.png)
+![Screenshot](https://codefresh.io/wp-content/uploads/2017/04/select_repo.png)
 
 
 We know our Docker Compose file is at the root of our directory, so we'll click next
