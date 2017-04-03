@@ -130,12 +130,12 @@ We know our Docker Compose file is at the root of our directory, so we'll click 
 
 Now we will review and update our yml. Looks good- let's click next.
 
-![Screenshot](https://codefresh.io/wp-content/uploads/2017/03/6.png)
+![Screenshot](https://codefresh.io/wp-content/uploads/2017/04/customize.png)
 
 
-Codefresh doesn't support Build property of compose, so it has replaced it with images built by pipeline. We can go ahead and click Create here.
+Great- let's create!
 
-![Screenshot](https://codefresh.io/wp-content/uploads/2017/03/7.png)
+![Screenshot](https://codefresh.io/wp-content/uploads/2017/04/customize-2.png)
 
 
 Everything looks good here- so let's go ahead and launch...
