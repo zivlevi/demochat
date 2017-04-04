@@ -38,7 +38,7 @@ Click on ___Add Repository___
 ![Screenshot](https://codefresh.io/wp-content/uploads/2017/03/add-repo.png)
 
 
-Now add your forked demochat repo. You can search for it by typing "demochat" to search. You can also Add by URL by typing in: https://github.com/containers101/demochat
+Now add your forked demochat repo. You can search for it by typing "demochat" to search. You can also Add by URL here.
 
 Also, choose the branch for your first build (in this case ```master```)
 
