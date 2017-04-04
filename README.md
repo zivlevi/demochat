@@ -113,9 +113,9 @@ Choose a name for your composition
 
 ![Screenshot](https://codefresh.io/wp-content/uploads/2017/03/2.png)
 
-We'll be using a file from our repo, so select the appropriate option (for the purpose of this demo, you may also use the Let's Chat template if you wish).
+We are going to build our comp from scrath, so click ___Empty Composition___
 
-![Screenshot](https://codefresh.io/wp-content/uploads/2017/03/3.png)
+![Screenshot](https://codefresh.io/wp-content/uploads/2017/04/empty_comp.png)
 
 We will be selecting containers101/demochat from our list. If it is not appearing, click ___Add by URL___ and enter https://github.com/Superfresh/demochat
 
