@@ -118,13 +118,9 @@ We are going to build our comp from scrath, so click ___Empty Composition___
 ![Screenshot](https://codefresh.io/wp-content/uploads/2017/04/empty_comp.png)
 
 Now we will click ___Add Service___ and add demochat, the port (50000), and mongo.
+Everything looks good here- so let's go ahead and launch by clicking the rocket ship...
 
 ![Screenshot](https://codefresh.io/wp-content/uploads/2017/04/savelaunch_final.png)
-
-Everything looks good here- so let's go ahead and launch...
-
-
-![Screenshot](https://codefresh.io/wp-content/uploads/2017/04/save_launch_final.png)
 
 
 Once it has completed, a link to our app will be displayed. Let's click it to see if it worked.
