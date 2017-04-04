@@ -117,25 +117,9 @@ We are going to build our comp from scrath, so click ___Empty Composition___
 
 ![Screenshot](https://codefresh.io/wp-content/uploads/2017/04/empty_comp.png)
 
-We will be selecting containers101/demochat from our list. If it is not appearing, click ___Add by URL___ and enter https://github.com/Superfresh/demochat
+Now we will click ___Add Service___ and add demochat, the port (50000), and mongo.
 
-![Screenshot](https://codefresh.io/wp-content/uploads/2017/04/select_repo.png)
-
-
-We know our Docker Compose file is at the root of our directory, so we'll click ___Next___.
-
-![Screenshot](https://codefresh.io/wp-content/uploads/2017/03/5.png)
-
-
-Now we will review and update our yml. Looks good- let's click ___Continue___.
-
-![Screenshot](https://codefresh.io/wp-content/uploads/2017/04/review_and_update_final.png)
-
-
-Great- let's click ___Create___!
-
-![Screenshot](https://codefresh.io/wp-content/uploads/2017/04/create_final.png)
-
+![Screenshot](https://codefresh.io/wp-content/uploads/2017/04/savelaunch_final.png)
 
 Everything looks good here- so let's go ahead and launch...
 
