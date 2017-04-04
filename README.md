@@ -94,7 +94,7 @@ Great- the date has been printed!
 ![Screenshot](https://codefresh.io/wp-content/uploads/2017/03/22.png)
  
  
-Now let's add a full composition that contains the chat and mongo db
+Now let's add a full composition that also contains mongo db.
 
 
 ## Add composition
