@@ -127,26 +127,26 @@ We know our Docker Compose file is at the root of our directory, so we'll click 
 ![Screenshot](https://codefresh.io/wp-content/uploads/2017/03/5.png)
 
 
-Now we will review and update our yml. Looks good- let's click ___Next___.
+Now we will review and update our yml. Looks good- let's click ___Continue___.
 
-![Screenshot](https://codefresh.io/wp-content/uploads/2017/04/customize.png)
+![Screenshot](https://codefresh.io/wp-content/uploads/2017/04/review_and_update1.png)
 
 
 Great- let's click ___Create___!
 
-![Screenshot](https://codefresh.io/wp-content/uploads/2017/04/customize-2.png)
+![Screenshot](https://codefresh.io/wp-content/uploads/2017/04/customize2.png)
 
 
 Everything looks good here- so let's go ahead and launch...
 
 
-![Screenshot](https://codefresh.io/wp-content/uploads/2017/04/launch.png)
+![Screenshot](https://codefresh.io/wp-content/uploads/2017/04/launch3.png)
 
 
 Once it has completed, a link to our app will be displayed. Let's click it to see if it worked.
 
 
-![Screenshot](https://codefresh.io/wp-content/uploads/2017/03/9.png)
+![Screenshot](https://codefresh.io/wp-content/uploads/2017/04/completed_in.png)
 
 Success! We have successfully launched a composition.
 
