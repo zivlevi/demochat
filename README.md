@@ -129,18 +129,18 @@ We know our Docker Compose file is at the root of our directory, so we'll click 
 
 Now we will review and update our yml. Looks good- let's click ___Continue___.
 
-![Screenshot](https://codefresh.io/wp-content/uploads/2017/04/review_and_update1.png)
+![Screenshot](https://codefresh.io/wp-content/uploads/2017/04/review_and_update_final.png)
 
 
 Great- let's click ___Create___!
 
-![Screenshot](https://codefresh.io/wp-content/uploads/2017/04/customize2.png)
+![Screenshot](https://codefresh.io/wp-content/uploads/2017/04/create_final.png)
 
 
 Everything looks good here- so let's go ahead and launch...
 
 
-![Screenshot](https://codefresh.io/wp-content/uploads/2017/04/launch3.png)
+![Screenshot](https://codefresh.io/wp-content/uploads/2017/04/save_launch_final.png)
 
 
 Once it has completed, a link to our app will be displayed. Let's click it to see if it worked.
